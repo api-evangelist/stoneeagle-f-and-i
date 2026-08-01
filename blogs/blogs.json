@@ -1,0 +1,28 @@
+{
+  "repo": "stoneeagle-f-and-i",
+  "feeds": [
+    {
+      "source": "https://www.se-fi.com/blog-feed.xml",
+      "feed_url": "https://www.se-fi.com/blog-feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.se-fi.com/",
+      "feed_url": "https://www.se-fi.com/blog-feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.se-fi.com/blog",
+      "feed_url": "https://www.se-fi.com/blog-feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 20,
+  "fetched": "2026-08-01T15:49:00Z"
+}

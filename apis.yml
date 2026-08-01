@@ -1,8 +1,30 @@
 aid: stoneeagle-f-and-i
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stoneeagle-f-and-i.png
 name: StoneEagle F&I
-description: StoneEagle F&I is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  StoneEagle F&I is an automotive Finance & Insurance (F&I) technology company
+  that has spent more than 35 years building the software backbone of dealership
+  F&I operations. Its product suite spans Variable Ops (StoneEagleMENU, an
+  electronic F&I menu-selling and product-presentation system, and
+  StoneEagleMETRICS, real-time DMS-sourced sales and F&I reporting), Fixed Ops
+  (PENCILWRENCH and StoneEagleMETRICS SERVICE for the service drive), and
+  industry benchmarking (StoneEagleDATA, transaction-level insight across more
+  than half of U.S. franchised dealers). StoneEagle connects to dealerships
+  through certified DMS integrations and partners such as Dealertrack and F&I
+  Express, but publishes no public developer API, SDKs, or developer portal —
+  integration is delivered as private, certified dealer and partner connections.
+  Added to the API Evangelist network as a portfolio company of Battery Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/stoneeagle-f-and-i/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Automotive
+- Finance and Insurance
+- Dealership
+- Automotive Retail
+- DMS Integration
+- Reporting
+- Analytics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/stoneeagle-f-and-i-domain-security.yml
+- type: Website
+  url: https://www.se-fi.com/
+- type: Blog
+  url: https://www.se-fi.com/blog
+- type: BlogRSS
+  url: https://www.se-fi.com/blog-feed.xml
+- type: Support
+  url: https://www.se-fi.com/support-case
+- type: Contact
+  url: https://www.se-fi.com/contact
+- type: PrivacyPolicy
+  url: https://www.se-fi.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
